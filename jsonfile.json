@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greetings1",
+      "patterns": [
+        "Hi how are you?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hello :)"
+      ]
+
+    },
+    {
+      "tag":"greetings2",
+      "patterns": [
+        "How are you doing?",
+        "How are you?",
+        "Hi how are you?",
+        "Hello how are you?"
+      ],
+      "responses": [
+        "I'm fine what about you?",
+        "Thanks for asking! I'm excellent. How about you?",
+        "You know, according to my lawyer, I don't have to answer that.",
+        "Fine, thanks. What do you got for me today?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "What should I call you?",
+        "who are you?"
+      ],
+      "responses": [
+        "I'm Aapi and I'm here to help you out ;)"
+      ]
+    },
+    {
+      "tag":"help",
+      "patterns": [
+        "help",
+        "Help",
+        "Help!",
+        "help!"
+      ],
+      "responses":[
+        "Ok, you can ask me about:<br> Admission process for degree, PG, Junior. <br>College contact details.<br>Extra curricular activities.<br> Exam details.<br> and about placements."
+      ]
+    },
+    {
+      "tag": "admission-degree",
+      "patterns": [
+        "What is the admission process for degree?",
+        "How to take admission for degree?",
+        "I want to take admission for degree"
+      ],
+      "responses": [
+        "https://kirticollege.edu.in/category/degree-admission-notices/"
+      ]
+    },
+    {
+      "tag": "admission-pg",
+      "patterns": [
+        "What is the admission process for PG?",
+        "How to take admission for Post?",
+        "I want to take admission for PG"
+      ],
+      "responses": [
+        "https://kirticollege.edu.in/category/post-graduation-notices/"
+      ]
+    },
+    {
+      "tag": "admission-junior",
+      "patterns": [
+        "What is the admission process for junior?",
+        "How to take admission for junior?",
+        "I want to take admission for junior"
+      ],
+      "responses": [
+        "https://kirticollege.edu.in/#"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What is the college number?",
+        "What is the college staff number?",
+        "What is the college contact?",
+        "what is the contact details?",
+        "How to contact college?"
+      ],
+      "responses": [
+        "https://kirticollege.edu.in/contact-us/"
+      ]
+    },
+    {
+      "tag": "sport",
+      "patterns": [
+        "Is sports available in college?",
+        "Is NCC available in college?",
+        "Is NSS available in college?",
+        "What extra curricular activities are there in college?"
+      ],
+      "responses": [
+        "Please contact college"
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "when is my exam?",
+        "Give me exam details"
+      ],
+      "responses": [
+        "https://livestudent.deccansociety.org/"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What is the placement process?",
+        "Which companies comes to college?",
+        "How to seat for on campus placement?",
+        "college placement reviews ? "
+      ],
+      "responses": [
+        "Contact Collage Placement Cell"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Good Bye Aapi",
+        "See You later",
+        "Till next time",
+        "meet you later"
+      ],
+      "responses": [
+        "See you, Have a nice day :)",
+        "Bye,Come back soon! ",
+        "Thanks For Asking! "
+      ]
+    },
+    {
+      "tag": "noans",
+      "patterns": [
+        "why",
+        "how",
+        "when",
+        "I",
+        "you"
+      ],
+      "responses": [
+        "Hey there!, I'm still learning stuff can you please elaborate it?"
+      ]
+    }
+  ]
+}
